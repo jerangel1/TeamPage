@@ -7,73 +7,48 @@
     font-family: 'Poppins', sans-serif;
     
 }
-
 .header h1 {
     font-family: 'PT Serif', serif;
     text-align: left;
 }
-
 .header {
     padding: 3rem;
     width: 100%;
 }
-
 .container .member {
-    max-width: 300px;
+    max-width: 264px;
     margin: auto;
     margin-bottom: 5rem;
     cursor: pointer;
     position: relative;
 }
-
 .member:nth-child(3n+2) {
     margin-bottom: -1rem;
     margin-top: 5rem;
 }
-
 .member img {
     width: 264px;
     height: 383px;
 }
-
-.member:first-child:after {
-    content: 'PRODUCT OWNER';
-    padding-bottom: 2rem;
+.ocupation{
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+    font-weight: 0;
+    transform:rotate(90deg) ;
+    margin-left:13rem;
+    margin-top: 4rem;
+    position: absolute;
+    text-align:left;
+    white-space: nowrap;
+    width:135PX;
 }
-
-.member:nth-child(2):after {
-    content: 'ART DIRECTOR';
-    padding-bottom: 1rem;
-}
-
-.member:nth-child(3):after {
-    content: 'TECH LEAD';
-    padding-bottom: -1rem;
-}
-
-.member:nth-child(4):after {
-    content: 'UX DESGINER';
-    padding-bottom: 1rem;
-}
-
-.member:nth-child(5):after {
-    content: 'DEVELOPER';
-    padding-bottom: -1rem;
-}
-
-.member:nth-child(6):after {
-    content: 'DEVELOPER';
-    padding-bottom: -1rem;
-}
-
-.member::after {
+.member:after {
     color: black;
     position: absolute;
     top: 3rem;
     right: -3.9rem;
     transform: rotate(90deg);
 }
-
 .footer {
     font-family: Montserrat;
     font-size: 14px;
@@ -85,7 +60,6 @@
     margin: 20px 0;
     font-family: 'Montserrat', sans-serif;
 }
-
 .footer a {
     color: #A9A9A9;
     text-decoration: none;
