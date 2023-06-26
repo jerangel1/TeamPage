@@ -1,0 +1,41 @@
+.col img {
+    width:264px;
+    height:383px;
+}
+
+.col h5{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+}
+.col h4{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.row h1{
+    font-family: PT Serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -0.045em;
+text-align: left;
+
+}
+
+.PictureText p{
+    font-family: 'PT Serif', serif;
+    font-size: 13px;
+    font-weight: 0;
+    writing-mode:vertical-lr;
+    margin-left: 265px;
+    margin-top: -375px;
+}
